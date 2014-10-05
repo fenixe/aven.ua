@@ -1,0 +1,410 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+smgetElementById, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0px 0px;
+    padding: 0;
+    border: 0;
+    /*font-size: 100%;
+    font: inherit;*/
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html, body {
+
+    height: 100%;
+}
+
+body, p, ul {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0px;
+
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+a:link {
+    color: #FFF;
+}
+
+a:hover {
+    color: #FF0;
+}
+
+a.act {
+    color: #03F;
+}
+
+#wrapper, #footer {
+    width: 1200px;
+    margin: 0px auto;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#wrapper {
+    min-height: 100%;
+}
+
+#header {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 10px;
+}
+
+.header1 {
+    position: relative; /* Относительное позиционирование */
+}
+
+.scrollTop a {
+    background: url(../img/up.png) 0 0 no-repeat;
+    background-size: 80px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 5px;
+    z-index: 100;
+}
+
+a.left {
+    left: 7%;
+}
+
+a.right {
+    right: 7%;
+}
+
+.scrollTop a:hover {
+    background-position: 0 -78px;
+}
+
+#vert_poz {
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 0px;
+}
+
+.main_page {
+    right: 965px; /* Положение от правого края */
+}
+
+.product {
+    right: 723px; /* Положение от правого края */
+}
+
+.fotogalery {
+    right: 490px; /* Положение от правого края */
+}
+
+.guest_book {
+    right: 255px; /* Положение от правого края */
+}
+
+.contact {
+    right: 20px; /* Положение от правого края */
+}
+
+#content {
+    /*border: 2px solid #0080FF ;*/
+    width: 860px;
+    float: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 18px;
+    line-height: normal;
+    text-indent: 15px;
+}
+
+#content h2 {
+    text-align: center;
+    font-style: italic;
+    color: #4F6228;
+}
+
+#content p {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0.2em;
+    text-align: justify;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#content ul {
+    margin-left: 30px;
+}
+
+#cont_production {
+    border: 2px solid #999;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+#cont_production img {
+    border: 2px solid silver;
+    border-radius: 4px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+.bg_green {
+    background: #00B050;
+}
+
+.bg_yellow {
+    background: #92D050;
+}
+
+.other_prod {
+    /*background: #3F9;*/
+    border: #C00 solid 2px;
+    border: 2px solid #999;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+#cont_galary h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#cont_galary img {
+    border: 2px solid silver;
+    border-radius: 4px;
+    margin: 10px;
+    display: table;
+    float: left;
+}
+
+#form {
+    /*	border:#09F solid 1px;*/
+    width: 590px;
+    padding: 1px;
+    margin: 0px 20%;
+}
+
+.blocks p {
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.blocks em {
+    padding: 5px 135px;
+    color: #666;
+    position: relative;
+}
+
+.btn {
+    display: block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #e1e0df;
+    padding: 0px 10px;
+    margin-right: 15px;
+    background-color: #e1e0df;
+    color: #565e62;
+    font-weight: bold;
+    font-size: 11px;
+    outline: none;
+    z-index: 10;
+}
+
+.text, .textarea {
+    padding: 0px 0px;
+    height: 16px;
+    border: 1px solid #ddd;
+    margin-left: -12px;
+    color: #333;
+    position: relative;
+    z-index: 10;
+}
+
+.text {
+    width: 190px;
+}
+
+.textarea {
+    height: 50px;
+    width: 300px;
+}
+
+.blocks label {
+    /*	border:#930 1px solid;*/
+    float: left;
+    width: 135px;
+    line-height: 20px;
+    text-align: left;
+    font-size: 11px;
+    font-weight: bold;
+    color: #666;
+}
+
+.blocks_label_error,
+.blocks_label_ok {
+    position: absolute;
+    z-index: 0;
+    top: -2px;
+    left: 136px;
+    padding: 0px 5px 0px 185px;
+    /* Сбрасываем метку */
+    width: auto;
+    height: 20px;
+    text-align: right;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.blocks_label_ok {
+    background-color: #deefca;
+    color: #577530;
+}
+
+.blocks_label_error {
+    background-color: #f5d6d7;
+    color: #c81925;
+}
+
+.area_label_ok,
+.area_label_error {
+    padding-top: 1px;
+    height: 56px;
+    margin-top: 0px;
+    text-align: left;
+    padding-left: 293px;
+
+}
+
+/* SS3*/
+.btn, .text, .textarea, .blocks_label_error,
+.blocks_label_ok {
+    border-radius: 3px;
+}
+
+#chapter1 {
+    display: none;
+}
+
+#contacts img {
+    /*border:#C96 2px solid;*/
+    position: static;
+    float: left;
+    margin: -5px 5px 10px 0px;
+}
+
+#form_mail {
+    /*	border: #9C3 solid 1px;*/
+    float: right;
+    width: 590px;
+    margin: -10px;
+}
+
+#mainNav {
+    background-image: url(../img/navi_panel.png);
+    background-size: 285px 340px;
+    background-repeat: no-repeat;
+    width: 275px;
+    float: left;
+    padding: 20px 10px 20px 0px;
+    border-radius: 4px;
+}
+
+#mainNav ul {
+    padding-left: 15px;
+}
+
+#footer {
+    background: url(../img/footer.png) no-repeat;
+    background-size: cover;
+    clear: both;
+    height: 50px;
+    margin-top: -50px;
+}
+
+#footer p {
+    padding: 13px 40%;
+    margin: 0;
+}
+
+#footer-clear {
+    clear: both;
+    height: 50px;
+}
+
+#loading {
+    width: 900px;
+    position: absolute;
+}
+
+#pagination {
+    text-align: center;
+    margin-left: 120px;
+
+}
+
+#pagination li {
+    list-style: none;
+    float: left;
+    margin-right: 16px;
+    padding: 5px;
+    /*border:solid 1px #dddddd;*/
+    color: #555555;
+}
+
+#pagination li:hover {
+    color: #e1e0df;
+    cursor: pointer;
+}
